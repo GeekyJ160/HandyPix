@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "HandyPix AI",
+      "hasCanvas": false,
+      "bodyTextLen": 1009,
+      "bodyTextHash": "a7a2a212fb8bed174a89217f028b04285c4f5af8a83b26a225d7ee1ec65bde05",
+      "bodyTextPrefix": "HandyPix AI Blueprint Log in SNAP IT. DIAGNOSE IT. FIX IT. Your ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "HandyPix AI",
+      "hasCanvas": false,
+      "bodyTextLen": 999,
+      "bodyTextHash": "5dfaaf82f54fc74d3c2977b1fd0e6b205114b9be3aca03b5289c8ada6de55c3f",
+      "bodyTextPrefix": "HandyPix AI Log in SNAP IT. DIAGNOSE IT. FIX IT. Your home probl",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

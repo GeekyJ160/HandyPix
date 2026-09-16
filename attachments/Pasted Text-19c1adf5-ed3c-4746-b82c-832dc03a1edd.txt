@@ -1,0 +1,3899 @@
+complete HandyPix AI app blueprint—including the screens, buttons, database structure, AI diagnosis flow, handyman bidding system, payment flow, and a development plan.
+
+Absolutely. Here is a build-ready blueprint for HandyPix AI—from the homeowner taking the first photo through AI diagnosis, bidding, scheduling, payment, completion, and reviews.
+
+HandyPix AI
+
+Tagline: Snap it. Diagnose it. Fix it.
+
+Core value proposition
+
+> Take a picture of what's wrong. HandyPix AI helps identify the likely issue, gets bids from vetted local professionals, lets you compare them, and handles the job and payment in one place.
+
+
+
+One important product principle: AI should provide a preliminary diagnosis, not present itself as a guaranteed professional inspection. For electrical, gas, structural, roofing, plumbing, HVAC, or other potentially dangerous situations, the app should clearly recommend professional inspection and appropriate emergency services when warranted.
+
+
+---
+
+1. The complete customer journey
+
+OPEN APP
+   ↓
+TAKE PHOTO / VIDEO
+   ↓
+AI ANALYZES PROBLEM
+   ↓
+CUSTOMER CONFIRMS DETAILS
+   ↓
+AI CREATES JOB REQUEST
+   ↓
+LOCAL VETTED PROS NOTIFIED
+   ↓
+PROS SUBMIT BIDS
+   ↓
+CUSTOMER COMPARES BIDS
+   ↓
+SELECTS HANDYMAN
+   ↓
+SCHEDULE APPOINTMENT
+   ↓
+PAYMENT AUTHORIZED
+   ↓
+HANDYMAN ARRIVES
+   ↓
+JOB STARTED
+   ↓
+JOB COMPLETED
+   ↓
+CUSTOMER CONFIRMS
+   ↓
+PAYMENT RELEASED
+   ↓
+REVIEW
+
+
+---
+
+2. Customer app
+
+Screen 1 — Welcome
+
+HandyPix AI
+
+> Your home problem starts with a picture.
+
+
+
+Buttons:
+
+Get Started
+
+Log In
+
+Sign Up
+
+
+Optional:
+
+> Already have an account? Log In
+
+
+
+
+---
+
+3. Home screen
+
+The home screen should be extremely simple.
+
+Header
+
+Good afternoon 👋
+
+Main card
+
+> What's wrong?
+Take a picture and let HandyPix AI help.
+
+
+
+Primary button
+
+📸 Take a Photo
+
+Secondary buttons:
+
+Upload Photo
+
+Record Video
+
+My Jobs
+
+
+Categories underneath:
+
+Plumbing
+
+Electrical
+
+HVAC
+
+Carpentry
+
+Drywall
+
+Painting
+
+Appliances
+
+Doors & Windows
+
+Furniture Assembly
+
+General Repairs
+
+
+
+---
+
+4. Photo capture
+
+Screen
+
+Show us the problem
+
+Camera view with:
+
+Take Photo
+
+and:
+
+Add Another Photo
+
+You could encourage multiple angles:
+
+> Tip: Take a close-up and a wider photo showing where the problem is located.
+
+
+
+Buttons:
+
+Retake
+
+Use Photo
+
+Add Photo
+
+Add Video
+
+
+The app should preserve the original images for the job record.
+
+
+---
+
+5. AI diagnosis screen
+
+This is the signature HandyPix AI experience.
+
+Animation
+
+HandyPix AI is analyzing your photo…
+
+Then:
+
+Possible issue
+
+> Possible leaking connection under kitchen sink
+
+
+
+What we see
+
+Moisture around drain connection
+
+Possible worn gasket
+
+Water appears to be accumulating beneath the sink
+
+
+Likely job category
+
+Plumbing
+
+Estimated complexity
+
+Small repair
+
+Information needed
+
+> When does the leak occur?
+
+
+
+Options:
+
+Constantly
+
+Only when sink is running
+
+Only when dishwasher runs
+
+Not sure
+
+
+Important disclaimer
+
+> AI assessment: This is a preliminary visual assessment and may be incorrect. A professional should verify the problem before repair.
+
+
+
+Buttons:
+
+Looks Right →
+
+Something Else →
+
+
+---
+
+6. Safety layer
+
+This is extremely important.
+
+Before allowing the customer to request bids, the AI should classify the problem into:
+
+🟢 Normal
+
+Examples:
+
+Loose cabinet handle
+
+Drywall hole
+
+Faucet drip
+
+Broken door hinge
+
+
+Continue normally.
+
+🟡 Professional inspection recommended
+
+Examples:
+
+HVAC malfunction
+
+Significant plumbing leak
+
+Roof damage
+
+Electrical issue
+
+Structural concerns
+
+
+Display:
+
+> A professional should inspect this issue before repair.
+
+
+
+🔴 Potentially dangerous
+
+Examples could include indications of:
+
+Exposed electrical wiring
+
+Gas leaks
+
+Fire
+
+Major flooding
+
+Structural collapse
+
+
+The app should prioritize safety instructions and emergency services rather than treating it like an ordinary handyman bid.
+
+
+---
+
+7. Create the job
+
+After diagnosis:
+
+Let's get your job posted
+
+Fields:
+
+Problem
+
+> Kitchen sink leaking underneath
+
+
+
+AI category
+
+> Plumbing
+
+
+
+Description
+
+AI-generated description that the homeowner can edit.
+
+Photos
+
+[4 photos]
+
+Location
+
+> Address hidden from handymen until appropriate stage
+
+
+
+Preferred date
+
+📅 Saturday, September 19
+
+Preferred time
+
+Morning
+
+Afternoon
+
+Evening
+
+Flexible
+
+
+Budget
+
+Optional:
+
+Under $100
+
+$100–$250
+
+$250–$500
+
+$500+
+
+
+or:
+
+Don't know
+
+Primary button:
+
+Get Local Bids
+
+
+---
+
+8. AI-generated job description
+
+This is one of the most valuable features.
+
+Instead of the homeowner writing:
+
+> "Sink leaking idk"
+
+
+
+HandyPix AI generates:
+
+> Kitchen sink leak
+
+Water appears to be leaking from the plumbing connection beneath the kitchen sink. The leak appears to occur around the drain connection. Customer is unsure of the exact source.
+
+Customer has provided 4 photos for reference.
+
+
+
+The homeowner can edit this before posting.
+
+
+---
+
+9. Handyman matching engine
+
+Once posted, the backend determines which professionals should receive it.
+
+Matching factors
+
+Distance
++
+Service category
++
+Skills
++
+Availability
++
+Verification status
++
+Historical job performance
++
+Customer rating
++
+Response rate
++
+Price history
+
+Don't expose an opaque "AI score" to customers unless you can explain what it means.
+
+Instead, show understandable information:
+
+3.1 miles away
+
+4.9 ★
+
+127 completed jobs
+
+Plumbing • General Repair
+
+Available Saturday
+
+
+---
+
+10. Handyman app
+
+The professional gets:
+
+New Job
+
+Kitchen Sink Leak
+
+📍 Approx. 3 miles away
+
+AI preliminary diagnosis
+
+> Possible leaking drain connection.
+
+
+
+Photos
+
+[photos]
+
+Preferred time
+
+Saturday morning
+
+Buttons
+
+Submit Bid
+
+Pass
+
+
+---
+
+11. Bid submission
+
+The handyman enters:
+
+Your bid
+
+Labor
+
+$85
+
+Estimated materials
+
+$25
+
+Total estimate
+
+$110
+
+Then:
+
+Available
+
+Saturday
+9:00 AM – 11:00 AM
+
+Estimated duration
+
+45–60 minutes
+
+Warranty
+
+30 days
+
+Message
+
+> I can inspect the connection and replace the gasket or trap if necessary. Materials included up to $25.
+
+
+
+Button:
+
+Submit Bid
+
+
+---
+
+12. Customer bid comparison
+
+This should be one of the most important screens.
+
+Your bids
+
+Handyman A
+
+$110
+
+⭐ 4.9
+
+127 jobs
+
+📍 3.1 miles
+
+Saturday 9–11 AM
+
+30-day warranty
+
+View Profile
+
+
+---
+
+Handyman B
+
+$95
+
+⭐ 4.7
+
+83 jobs
+
+📍 2.4 miles
+
+Saturday 10 AM–12 PM
+
+14-day warranty
+
+
+---
+
+Handyman C
+
+$135
+
+⭐ 5.0
+
+214 jobs
+
+📍 5.8 miles
+
+Saturday 8–10 AM
+
+90-day warranty
+
+
+---
+
+Instead of recommending one, let the customer sort/filter by:
+
+Price
+
+Rating
+
+Distance
+
+Availability
+
+Completed jobs
+
+Warranty
+
+
+Important
+
+Avoid making the UI imply that the cheapest or highest-rated person is automatically the right choice.
+
+
+---
+
+13. Handyman profile
+
+Profile
+
+John's Home Repair
+
+⭐ 4.9
+
+127 completed jobs
+
+Verification
+
+✓ Identity verified
+✓ Background check completed*
+✓ Insurance information provided*
+✓ Business information verified*
+
+*Only display these badges when your platform actually verifies them.
+
+Skills
+
+Plumbing
+
+General Repair
+
+Fixtures
+
+Carpentry
+
+
+Reviews
+
+> "Arrived on time and fixed the leak."
+
+
+
+> "Very professional."
+
+
+
+Portfolio
+
+[Before/after photos]
+
+
+---
+
+14. Selecting a handyman
+
+Customer taps:
+
+Accept Bid
+
+Confirmation:
+
+> You're hiring John for $110
+
+Saturday, September 19
+9:00–11:00 AM
+
+Estimated total: $110
+
+
+
+Then:
+
+Confirm & Continue
+
+
+---
+
+15. Payment architecture
+
+This is where you need to design carefully.
+
+I would use a marketplace payment provider such as Stripe Connect rather than building payment processing yourself.
+
+The basic conceptual flow:
+
+Customer
+   ↓
+Payment authorization
+   ↓
+HandyPix AI platform
+   ↓
+Job completed
+   ↓
+Customer confirms completion
+   ↓
+Platform releases/initiates handyman payout
+
+Don't call the system a legally regulated escrow service unless your actual payment/legal structure supports that.
+
+Payment screen
+
+Confirm payment
+
+Job estimate: $110
+Platform/service fee: $X
+Taxes, if applicable: $X
+
+Total
+
+$XXX
+
+Payment method:
+
+💳 Visa •••• 4242
+
+☑ I agree to the service terms
+
+Pay & Book
+
+
+---
+
+16. Buyer/customer protection
+
+Build a formal dispute system rather than simply promising "buyer protection."
+
+For example:
+
+If something goes wrong
+
+Customer can select:
+
+Job wasn't completed
+
+Job materially differs from agreement
+
+Damage occurred
+
+Unexpected price
+
+Handyman didn't arrive
+
+Other issue
+
+
+Then:
+
+Open Dispute
+
+The system collects:
+
+Original photos
+
+Job description
+
+Bid
+
+Messages
+
+Before/after photos
+
+Completion confirmation
+
+Payment information
+
+
+An administrator can review the case.
+
+
+---
+
+17. Change-order system
+
+This is essential.
+
+Suppose the handyman discovers that the original $110 job actually requires $250.
+
+They shouldn't simply charge $250.
+
+Instead:
+
+New issue discovered
+
+> Additional damaged pipe section found.
+
+
+
+Additional work
+
+$90 labor
+$50 materials
+
+Additional amount
+
+$140
+
+Buttons:
+
+Request Customer Approval
+
+Cancel Additional Work
+
+Customer sees:
+
+> John is requesting an additional $140.
+Your original approved amount: $110
+New total: $250
+
+
+
+Approve Change
+
+or
+
+Decline
+
+This protects both sides.
+
+
+---
+
+18. Job tracking
+
+After hiring:
+
+Your job
+
+🟢 Confirmed
+
+John's Home Repair
+
+Saturday
+9:00–11:00 AM
+
+Timeline
+
+✓ Bid accepted
+✓ Payment authorized
+✓ Appointment confirmed
+○ Handyman on the way
+○ Job started
+○ Job completed
+○ Payment released
+
+
+---
+
+19. Arrival
+
+Handyman:
+
+I'm on my way
+
+Customer receives:
+
+> John has started traveling to your location.
+
+
+
+Potential buttons:
+
+Message
+
+Call
+
+Reschedule
+
+Cancel
+
+For privacy, consider masking phone numbers and using in-app communication.
+
+
+---
+
+20. Start-job verification
+
+When the handyman arrives:
+
+Start Job
+
+The app can require:
+
+GPS proximity
+
+Timestamp
+
+Optional before photo
+
+
+Then:
+
+Job Started — 9:14 AM
+
+
+---
+
+21. Completion
+
+Handyman submits:
+
+Job completed
+
+Before photos: 3
+After photos: 4
+
+Final amount
+
+$110
+
+Work performed
+
+> Replaced worn drain gasket and tightened connection.
+
+
+
+Button:
+
+Submit Completion
+
+
+---
+
+22. Customer completion confirmation
+
+Customer receives:
+
+> Is your job complete?
+
+
+
+[Before] → [After]
+
+Work completed
+
+> Drain connection repaired.
+
+
+
+Buttons:
+
+Looks Good — Complete Job
+
+or
+
+Report a Problem
+
+
+---
+
+23. Review
+
+After completion:
+
+How was your experience?
+
+⭐⭐⭐⭐⭐
+
+Then:
+
+What did you like?
+
+☑ On time
+☑ Professional
+☑ Good communication
+☑ Quality work
+☑ Fair pricing
+
+Optional written review.
+
+Then:
+
+Submit Review
+
+
+---
+
+24. Customer navigation
+
+I'd use five primary tabs:
+
+┌───────────────────────────────┐
+│         HandyPix AI           │
+├───────────────────────────────┤
+│                               │
+│       What's wrong?           │
+│                               │
+│      📸 Take a Photo          │
+│                               │
+│      Upload a Photo           │
+│                               │
+├───────────────────────────────┤
+│ Home  Jobs  Messages  Wallet  │
+│                 Profile       │
+└───────────────────────────────┘
+
+
+---
+
+25. Handyman navigation
+
+Home
+Jobs
+Messages
+Earnings
+Profile
+
+Home
+
+New jobs nearby.
+
+Jobs
+
+Available
+
+Bidding
+
+Accepted
+
+Active
+
+Completed
+
+
+Earnings
+
+Pending
+
+Available
+
+Paid out
+
+
+Profile
+
+Skills
+
+Service radius
+
+Availability
+
+Verification
+
+Insurance
+
+Portfolio
+
+Reviews
+
+
+
+---
+
+26. Database architecture
+
+I'd use PostgreSQL.
+
+Core tables:
+
+users
+customer_profiles
+handyman_profiles
+handyman_skills
+categories
+jobs
+job_photos
+ai_diagnoses
+bids
+appointments
+messages
+message_attachments
+payments
+payment_events
+change_orders
+job_events
+reviews
+disputes
+notifications
+addresses
+availability
+verification_records
+admin_users
+audit_logs
+
+
+---
+
+27. Users table
+
+users
+--------------------------
+id UUID PRIMARY KEY
+email
+phone
+password_hash
+role
+first_name
+last_name
+profile_photo_url
+status
+created_at
+updated_at
+
+role:
+
+customer
+handyman
+admin
+
+
+---
+
+28. Handyman profile
+
+handyman_profiles
+--------------------------
+id UUID PRIMARY KEY
+user_id UUID
+business_name
+bio
+years_experience
+service_radius_miles
+latitude
+longitude
+average_rating
+review_count
+completed_jobs
+verification_status
+background_check_status
+insurance_status
+created_at
+updated_at
+
+Don't calculate critical trust indicators from manually editable values. Derive things such as review count and completed jobs from actual platform records.
+
+
+---
+
+29. Jobs
+
+jobs
+--------------------------
+id UUID PRIMARY KEY
+customer_id UUID
+category_id UUID
+title
+description
+ai_summary
+status
+address_id UUID
+preferred_start
+preferred_end
+budget_min
+budget_max
+selected_bid_id UUID
+final_price
+created_at
+updated_at
+
+Status:
+
+draft
+analyzing
+ready
+open
+bidding
+booked
+in_progress
+completed
+cancelled
+disputed
+closed
+
+
+---
+
+30. Job photos
+
+job_photos
+--------------------------
+id UUID PRIMARY KEY
+job_id UUID
+storage_url
+photo_type
+uploaded_by
+created_at
+
+Types:
+
+customer_initial
+customer_additional
+handyman_before
+handyman_after
+completion
+
+Use private object storage with signed URLs rather than making homeowner photos publicly accessible.
+
+
+---
+
+31. AI diagnosis
+
+ai_diagnoses
+--------------------------
+id UUID PRIMARY KEY
+job_id UUID
+model
+category
+possible_issue
+confidence
+risk_level
+explanation
+recommended_questions
+recommended_action
+created_at
+
+Example:
+
+{
+  "category": "plumbing",
+  "possible_issue": "drain connection leak",
+  "risk_level": "normal",
+  "confidence": 0.82
+}
+
+The confidence score should be treated as a model output, not a guarantee of diagnostic accuracy.
+
+
+---
+
+32. Bids
+
+bids
+--------------------------
+id UUID PRIMARY KEY
+job_id UUID
+handyman_id UUID
+labor_amount
+materials_amount
+total_amount
+estimated_duration
+available_start
+available_end
+warranty_days
+message
+status
+created_at
+updated_at
+
+Status:
+
+submitted
+withdrawn
+accepted
+rejected
+expired
+
+
+---
+
+33. Payments
+
+payments
+--------------------------
+id UUID PRIMARY KEY
+job_id UUID
+customer_id UUID
+handyman_id UUID
+provider
+provider_payment_id
+amount
+platform_fee
+tax_amount
+currency
+status
+authorized_at
+captured_at
+paid_out_at
+created_at
+
+Payment events should also be recorded separately so you have an auditable history.
+
+
+---
+
+34. Reviews
+
+reviews
+--------------------------
+id UUID PRIMARY KEY
+job_id UUID
+customer_id UUID
+handyman_id UUID
+rating
+review_text
+created_at
+
+Consider preventing reviews until a job reaches a legitimate completion state.
+
+
+---
+
+35. Disputes
+
+disputes
+--------------------------
+id UUID PRIMARY KEY
+job_id UUID
+opened_by
+reason
+description
+status
+resolution
+resolved_by
+created_at
+resolved_at
+
+
+---
+
+36. AI architecture
+
+The AI system can look like this:
+
+┌──────────────┐
+                    │ Customer     │
+                    │ Photo/Video  │
+                    └──────┬───────┘
+                           ↓
+                    ┌──────────────┐
+                    │ Image        │
+                    │ Validation   │
+                    └──────┬───────┘
+                           ↓
+                    ┌──────────────┐
+                    │ Vision AI    │
+                    └──────┬───────┘
+                           ↓
+              ┌────────────┴────────────┐
+              ↓                         ↓
+       Problem Classification      Safety Classifier
+              ↓                         ↓
+       Diagnosis Candidates       Risk Assessment
+              └────────────┬────────────┘
+                           ↓
+                    ┌──────────────┐
+                    │ Job Generator│
+                    └──────┬───────┘
+                           ↓
+                    Customer Review
+                           ↓
+                    Marketplace
+
+
+---
+
+37. AI should not just identify the object
+
+The AI needs to answer structured questions.
+
+For example:
+
+{
+  "category": "plumbing",
+  "problem": "possible drain connection leak",
+  "visual_evidence": [
+    "water accumulation",
+    "moisture near connection"
+  ],
+  "possible_causes": [
+    "worn gasket",
+    "loose connection"
+  ],
+  "risk_level": "normal",
+  "professional_inspection": false,
+  "additional_questions": [
+    "Does it leak only when the faucet runs?"
+  ]
+}
+
+That structured output can then feed your job creation system.
+
+
+---
+
+38. AI confidence architecture
+
+Don't simply tell users:
+
+> "Your pipe is broken."
+
+
+
+Instead:
+
+> Possible issue: loose drain connection
+AI confidence: Moderate
+Verification: A handyman should inspect the connection before repair.
+
+
+
+For high-risk categories:
+
+> The photo isn't sufficient to safely determine the cause. A qualified professional should inspect this issue.
+
+
+
+This distinction will be important for both user trust and liability management.
+
+
+---
+
+39. Recommended technical stack
+
+A practical MVP stack:
+
+Mobile
+
+React Native + Expo
+
+One codebase for:
+
+iOS
+
+Android
+
+
+Web/admin
+
+Next.js
+
+Backend
+
+Node.js / TypeScript
+
+or:
+
+Python / FastAPI
+
+Database
+
+PostgreSQL
+
+Authentication
+
+A managed authentication provider or your own secure authentication service.
+
+File storage
+
+Object storage for:
+
+Photos
+
+Videos
+
+Documents
+
+Insurance certificates
+
+
+AI
+
+Vision-capable multimodal model + structured JSON output + your own safety/business rules.
+
+Maps
+
+Geocoding + distance calculation + map display.
+
+Payments
+
+Marketplace payment infrastructure such as Stripe Connect, subject to the provider's current marketplace capabilities and your legal/business setup.
+
+
+---
+
+40. Backend API
+
+A clean API could look like:
+
+POST   /auth/register
+POST   /auth/login
+
+POST   /jobs
+GET    /jobs/:id
+PATCH  /jobs/:id
+
+POST   /jobs/:id/photos
+POST   /jobs/:id/analyze
+GET    /jobs/:id/diagnosis
+
+POST   /jobs/:id/publish
+GET    /jobs/:id/bids
+
+POST   /jobs/:id/bids
+PATCH  /bids/:id
+
+POST   /bids/:id/accept
+
+POST   /jobs/:id/schedule
+POST   /jobs/:id/start
+POST   /jobs/:id/complete
+
+POST   /jobs/:id/change-orders
+POST   /change-orders/:id/approve
+
+POST   /payments/create
+POST   /payments/webhook
+
+POST   /jobs/:id/dispute
+
+POST   /jobs/:id/review
+
+
+---
+
+41. Real-time functionality
+
+Use WebSockets or a managed real-time service for:
+
+New bid notification
+
+Chat
+
+Handyman arrival
+
+Job status
+
+Change-order requests
+
+Payment status
+
+Push notifications
+
+
+Example:
+
+> 🔔 New bid!
+Mike's Home Repair submitted a $125 bid for your sink repair.
+
+
+
+
+---
+
+42. Notification system
+
+Customer
+
+AI diagnosis ready
+
+Job posted
+
+New bid
+
+Bid expiring
+
+Handyman accepted
+
+Appointment reminder
+
+Handyman arriving
+
+Change order
+
+Job completed
+
+Review reminder
+
+
+Handyman
+
+New matching job
+
+Customer accepted bid
+
+Appointment reminder
+
+Customer message
+
+Change order approved/declined
+
+Payment status
+
+Review received
+
+
+
+---
+
+43. Admin dashboard
+
+You absolutely need one.
+
+Dashboard
+
+Customers             12,842
+Handymen               1,247
+Open Jobs                384
+Active Jobs              126
+Completed Jobs         8,921
+Disputes                  31
+Revenue               $XXX,XXX
+
+Admin capabilities
+
+Users
+
+Search
+
+Suspend
+
+Verify
+
+View history
+
+
+Handymen
+
+Verification
+
+Insurance
+
+Background-check status
+
+Complaints
+
+Reviews
+
+
+Jobs
+
+Search
+
+View photos
+
+View AI diagnosis
+
+View bids
+
+View messages
+
+View payment
+
+
+Disputes
+
+Investigate
+
+Request evidence
+
+Resolve
+
+Refund/adjust where appropriate
+
+
+
+---
+
+44. Marketplace business model
+
+Several possible revenue streams:
+
+Transaction fee
+
+For example:
+
+Job = $200
+Platform fee = X%
+
+The exact percentage should be determined after modeling customer acquisition, payment costs, insurance/risk costs, refunds, support, and handyman economics.
+
+Optional handyman subscription
+
+Free
+Pro
+Business
+
+Potential features:
+
+More bids
+
+Advanced analytics
+
+Faster notifications
+
+Larger service area
+
+Portfolio tools
+
+
+Customer membership
+
+Potentially:
+
+Reduced service fees
+
+Priority support
+
+Maintenance reminders
+
+Home maintenance history
+
+
+I would initially keep the monetization simple rather than launching multiple paid tiers simultaneously.
+
+
+---
+
+45. The "Home Repair History" feature
+
+This could become a major long-term differentiator.
+
+Every completed job becomes part of the home's history.
+
+My Home
+
+123 Main Street
+
+Kitchen
+
+🔧 Faucet replaced
+September 2026
+$175
+
+HVAC
+
+❄️ AC serviced
+June 2026
+$129
+
+Bathroom
+
+🚿 Shower valve repaired
+April 2026
+$240
+
+Over time, HandyPix becomes a digital maintenance record for the home.
+
+
+---
+
+46. AI-powered maintenance reminders
+
+Eventually:
+
+> HandyPix AI noticed your HVAC was serviced 12 months ago.
+
+
+
+> Schedule routine maintenance?
+
+
+
+Or:
+
+> Your water heater is approaching the maintenance interval you recorded last year.
+
+
+
+The app becomes more than an emergency repair marketplace.
+
+
+---
+
+47. Phase 1 — MVP
+
+Don't build everything initially.
+
+Build:
+
+Customer
+
+Account
+
+Take/upload photo
+
+AI analysis
+
+Create job
+
+Location
+
+Receive bids
+
+Compare bids
+
+Accept bid
+
+Payment
+
+Messaging
+
+Completion
+
+Review
+
+
+Handyman
+
+Account
+
+Verification workflow
+
+Skills
+
+Service area
+
+Job feed
+
+Submit bid
+
+Messaging
+
+Schedule
+
+Job completion
+
+Earnings
+
+
+Admin
+
+Users
+
+Jobs
+
+Handymen
+
+Verification
+
+Payments
+
+Disputes
+
+
+That's enough to launch a real marketplace.
+
+
+---
+
+48. Phase 2
+
+Add:
+
+Video diagnosis
+
+AI-generated job descriptions
+
+Change orders
+
+In-app calling
+
+Live arrival tracking
+
+Recurring maintenance
+
+Home maintenance history
+
+Better matching
+
+Handyman portfolio
+
+Customer favorites
+
+
+
+---
+
+49. Phase 3
+
+Add:
+
+Smart Home Repair AI
+
+Customer:
+
+> "My AC isn't working."
+
+
+
+HandyPix:
+
+> "Take a picture of the thermostat."
+
+
+
+Then:
+
+> "Now take a picture of the outdoor unit."
+
+
+
+Then:
+
+> "Is the outdoor fan running?"
+
+
+
+The AI can dynamically request additional information before creating the job.
+
+That makes HandyPix AI much more than a photo upload form.
+
+
+---
+
+50. Development roadmap
+
+Sprint 1 — Foundation
+
+Brand
+
+UX/UI
+
+Database
+
+Authentication
+
+Customer/handyman roles
+
+Backend infrastructure
+
+Admin architecture
+
+
+Sprint 2 — Photo + AI
+
+Camera
+
+Upload
+
+Image storage
+
+AI analysis
+
+Diagnosis screen
+
+Safety classification
+
+Job generation
+
+
+Sprint 3 — Marketplace
+
+Job posting
+
+Handyman profiles
+
+Matching
+
+Job feed
+
+Bidding
+
+Bid comparison
+
+
+Sprint 4 — Booking
+
+Bid acceptance
+
+Scheduling
+
+Messaging
+
+Notifications
+
+Job status
+
+
+Sprint 5 — Payments
+
+Customer payment
+
+Handyman onboarding
+
+Platform fees
+
+Payout workflow
+
+Payment webhooks
+
+Refund/dispute infrastructure
+
+
+Sprint 6 — Trust & safety
+
+Verification
+
+Reviews
+
+Reporting
+
+Disputes
+
+Admin tools
+
+Audit logs
+
+
+Sprint 7 — Beta
+
+Launch in one geographic market first.
+
+Track:
+
+Photo → Diagnosis conversion
+Diagnosis → Job conversion
+Jobs → Bids
+Jobs → Accepted bids
+Bid → Completed job
+Average time to first bid
+Average number of bids
+Cancellation rate
+Dispute rate
+Repeat customers
+Handyman retention
+
+
+---
+
+51. The most important MVP screen
+
+If I were designing the actual product, I'd make the opening screen almost ridiculously simple:
+
+What's wrong?
+
+📸 Take a Photo
+
+HandyPix AI will analyze the problem and help you find a local pro.
+
+
+---
+
+Take Photo
+
+or
+
+Upload Photo
+
+
+---
+
+Recent Jobs
+
+🔧 Leaking faucet — Completed
+🚪 Door repair — Completed
+❄️ AC issue — Bidding
+
+That gives HandyPix AI a very clear identity.
+
+
+---
+
+52. Recommended brand direction
+
+Based on the logo concepts you uploaded, I'd lean toward a dark premium-tech aesthetic:
+
+Background:
+#15171C
+
+Electric blue:
+#19C8FF
+
+Neon purple:
+#A855F7
+
+Pink accent:
+#F472D0
+
+White:
+#F5F7FA
+
+Gold:
+#D9A441
+
+But I'd use the neon colors sparingly in the actual app. The camera + AI + handyman concept should communicate quickly without looking like a gaming app.
+
+
+---
+
+53. The core product architecture
+
+The entire company can ultimately be thought of as four connected systems:
+
+HANDYPIX AI
+                      │
+       ┌──────────────┼──────────────┐
+       │              │              │
+       ▼              ▼              ▼
+   AI ENGINE      MARKETPLACE     TRUST LAYER
+       │              │              │
+       │              │              │
+  Photo analysis     Bids          Verification
+  Diagnosis          Matching      Reviews
+  Safety             Scheduling    Disputes
+  Job creation       Messaging     Payments
+       │              │              │
+       └──────────────┼──────────────┘
+                      ▼
+                COMPLETED JOB
+                      │
+                      ▼
+               HOME HISTORY
+
+That is the product I would build—not just an AI photo app, but a photo-to-repair marketplace.
+
+The key MVP loop is:
+
+> Photo → AI assessment → Job → Local bids → Customer choice → Payment → Repair → Review
+
+
+
+Everything else can grow around that loop.
+
+# HandyPix AI — Build Blueprint
+
+HandyPix AI should launch as a **photo-to-repair marketplace**: homeowners photograph a problem, receive a safety-aware AI assessment, post a structured job, compare local professional bids, book, pay, and retain a verified home-repair history. The strongest logo direction from the supplied concepts is the **camera/aperture mark**: it immediately communicates both visual diagnosis and repair services. [1][2][3]
+
+**Tagline:** *Snap it. Diagnose it. Fix it.*
+
+> **Critical product rule:** AI provides a preliminary visual assessment, never a guaranteed inspection, repair instruction, or emergency determination.
+
+***
+
+## Brand direction
+
+Use a polished, premium technology aesthetic—but make the actual product UI calm and trustworthy rather than overly neon.
+
+| Element | Recommendation |
+|---|---|
+| Primary logo | Clean aperture/camera icon with a subtle circuit or AI detail |
+| Preferred uploaded direction | Blue camera-lens/circuit logo; clearest visual connection to image analysis [3] |
+| App background | `#15171C` |
+| Surface/card | `#20232B` |
+| Primary blue | `#19C8FF` |
+| AI purple | `#A855F7` |
+| Accent pink | `#F472D0` |
+| Success green | `#22C55E` |
+| Warning amber | `#F59E0B` |
+| Danger red | `#EF4444` |
+| Main text | `#F5F7FA` |
+| Font | Inter, Manrope, or SF Pro-style system typography |
+
+Avoid placing the full “HandyPix AI” wordmark repeatedly on every screen. Use the icon in the header and reserve the full logo for onboarding, splash, and marketing surfaces.
+
+***
+
+## Product architecture
+
+```text
+                  HANDYPIX AI
+                        |
+        ---------------------------------
+        |               |               |
+        v               v               v
+    AI ENGINE      MARKETPLACE      TRUST LAYER
+        |               |               |
+   Image analysis    Job posting     Identity checks
+   Risk detection    Pro matching    Insurance records
+   AI summaries      Bids            Reviews
+   Follow-up Q&A     Scheduling      Disputes
+                     Messaging       Payments
+                        |
+                        v
+                  COMPLETED JOB
+                        |
+                        v
+                HOME REPAIR HISTORY
+```
+
+The essential MVP loop is:
+
+```text
+Photo -> AI assessment -> Job request -> Local bids
+-> Customer choice -> Booking -> Payment -> Repair -> Review
+```
+
+***
+
+## User roles
+
+| Role | Primary purpose |
+|---|---|
+| Customer | Captures a problem, reviews AI assessment, posts jobs, compares bids, pays, reviews |
+| Handyman / Pro | Sets service area and skills, views matched jobs, submits bids, performs work, receives payouts |
+| Admin / Operations | Verifies pros, monitors jobs and payments, handles disputes, reviews AI safety flags |
+| Support agent | Handles account, booking, payment, cancellation, and escalation tickets |
+
+For launch, use “Pro” in the consumer-facing UI rather than “handyman” everywhere. It supports a broader provider base: electricians, plumbers, HVAC technicians, carpenters, painters, appliance repair specialists, and general repair professionals.
+
+***
+
+## Customer screens
+
+### 1. Splash and onboarding
+
+**Purpose:** Explain the value in seconds.
+
+**Screen content**
+- HandyPix AI logo
+- “Your home problem starts with a picture.”
+- “Snap it. Diagnose it. Fix it.”
+- Three onboarding cards:
+  - Take a photo or video
+  - Get a preliminary AI assessment
+  - Compare local pro bids
+
+**Buttons**
+- `Get Started`
+- `Log In`
+- `Create Account`
+- `Continue as Guest` — optional, but require signup before publishing a job
+
+***
+
+### 2. Home dashboard
+
+**Header**
+- Greeting: “Good evening, Marcus”
+- Notification bell
+- Profile avatar
+
+**Primary card**
+```text
+What's wrong?
+
+Take a photo and HandyPix AI will help identify
+the issue and connect you with local pros.
+
+[ Take a Photo ]
+[ Upload Photo ]   [ Record Video ]
+```
+
+**Quick categories**
+- Plumbing
+- Electrical
+- HVAC
+- Appliances
+- Carpentry
+- Drywall
+- Painting
+- Doors & Windows
+- Roofing
+- Furniture Assembly
+- General Repair
+
+**Recent jobs**
+- Leaking kitchen faucet — Completed
+- Bedroom door repair — Bidding
+- AC not cooling — Draft
+
+**Bottom navigation**
+- Home
+- Jobs
+- Messages
+- Wallet
+- Profile
+
+***
+
+### 3. Camera and upload
+
+**Title:** “Show us the problem”
+
+**Capture guidance**
+- “Take one close-up and one wider photo showing where the issue is.”
+- “Use good lighting when possible.”
+- “For leaks, include the surrounding area and source if visible.”
+
+**Controls**
+- `Take Photo`
+- `Record Video`
+- `Upload from Gallery`
+- Flash toggle
+- Camera switch
+- Help icon
+
+**After capture**
+- Photo carousel
+- `Retake`
+- `Add Another Photo`
+- `Use Photos`
+- `Add Video`
+- `Continue`
+
+Store originals privately and generate optimized derivatives for model processing and UI previews. Home photos must never be exposed through public URLs. [1]
+
+***
+
+### 4. AI analysis
+
+**Loading state**
+```text
+HandyPix AI is reviewing your photos…
+
+• Identifying the repair category
+• Checking for visible safety concerns
+• Preparing questions for a more accurate request
+```
+
+**Assessment result**
+```text
+Possible issue
+Leaking connection beneath kitchen sink
+
+What we see
+• Moisture around the drain connection
+• Water collecting beneath the cabinet
+• Possible worn gasket or loose fitting
+
+Likely category
+Plumbing
+
+Estimated complexity
+Small repair
+
+Confidence
+Moderate
+```
+
+**Follow-up question example**
+```text
+When does the leak occur?
+
+[ Constantly ]
+[ Only when the sink runs ]
+[ Only when dishwasher runs ]
+[ Not sure ]
+```
+
+**Buttons**
+- `Looks Right`
+- `Edit Details`
+- `Something Else`
+- `Request a Pro`
+
+**Required disclaimer**
+> This is an AI-generated preliminary visual assessment and may be incomplete or incorrect. A qualified professional should inspect the issue before repair.
+
+Never present a single diagnosis as certain. Use language such as “possible,” “may indicate,” “visible signs suggest,” and “professional verification recommended.”
+
+***
+
+## Safety layer
+
+Every diagnosis should receive a risk classification before the customer can post the job.
+
+| Level | UI behavior | Example |
+|---|---|---|
+| Green: Routine | Continue to job creation | Loose handle, small drywall hole, dripping faucet |
+| Yellow: Pro recommended | Require acknowledgment before posting | HVAC issue, roof damage, recurring leak, electrical outlet issue |
+| Red: Potentially dangerous | Prioritize emergency guidance and limit ordinary bidding flow | Exposed wiring, possible gas leak, active fire, major flooding, collapse risk |
+
+### Red-risk screen
+
+```text
+Potential safety risk detected
+
+The photos may indicate an issue that could be dangerous.
+Do not attempt a repair yourself.
+
+[ Call Emergency Services ]
+[ Find Emergency Professional ]
+[ I Am Safe — View Guidance ]
+```
+
+**Rules**
+- Possible gas leak: advise leaving the area, avoiding switches/flames, and contacting the utility/emergency authority.
+- Fire or smoke: direct to emergency services.
+- Electrical exposure with water: tell the customer not to touch the area or attempt repairs.
+- Flooding near electrical sources: issue a prominent safety warning.
+- Structural instability: tell users to leave unsafe areas and seek qualified assessment.
+
+Have a legal professional review all emergency language for each launch market.
+
+***
+
+## Job creation
+
+### 5. Review job request
+
+**Title:** “Let’s get your job posted”
+
+**Editable fields**
+- Job title
+- Category
+- AI-generated description
+- Photo/video attachments
+- Home location
+- Preferred date
+- Preferred time window
+- Access notes
+- Budget preference
+- Property type
+- Optional urgency level
+
+**Location privacy**
+- Before bid acceptance: display only approximate distance and service area.
+- After booking: share exact address only with the accepted pro.
+- Never reveal a customer’s exact home address to every bidder.
+
+**Budget options**
+- Under $100
+- $100–$250
+- $250–$500
+- $500+
+- I’m not sure
+
+**Buttons**
+- `Save Draft`
+- `Preview Job`
+- `Get Local Bids`
+
+***
+
+### 6. AI-generated job description
+
+Turn incomplete homeowner input into an editable, professional request.
+
+**Example**
+
+```text
+Kitchen sink leak beneath cabinet
+
+Customer reports water accumulating beneath the kitchen sink.
+Photos show visible moisture near the drain connection and may
+indicate a loose fitting or worn gasket.
+
+The leak reportedly occurs when the sink is in use. Customer has
+uploaded four photos for reference. A professional inspection is
+requested before repair.
+```
+
+**Controls**
+- `Edit Description`
+- `Regenerate Summary`
+- `Add Notes`
+- `Publish Job`
+
+The AI should generate structured data plus readable prose, so matching, search, support, and dispute review do not depend on raw text alone.
+
+***
+
+## Professional experience
+
+### 7. Pro onboarding
+
+**Required steps**
+1. Create account
+2. Verify email and phone
+3. Submit legal name/business information
+4. Select skills and service categories
+5. Set service radius and availability
+6. Connect Stripe payout account
+7. Upload insurance documentation if required
+8. Complete identity/background verification where available
+9. Accept pro marketplace agreement
+10. Await admin approval
+
+**Pro profile fields**
+- Business name
+- Profile photo or business logo
+- Bio
+- Years of experience
+- Service categories
+- Zip codes / service radius
+- License number where applicable
+- Insurance documents
+- Portfolio images
+- Warranty policy
+- Availability
+
+Only show public verification badges if HandyPix has actually verified the underlying information.
+
+***
+
+### 8. Pro home screen
+
+**Sections**
+- New matched jobs
+- Jobs needing a response
+- Upcoming appointments
+- Earnings snapshot
+- Review reminders
+
+**New job card**
+```text
+Kitchen Sink Leak
+
+Approx. 3.1 miles away
+Plumbing • Small repair
+Customer prefers Saturday morning
+
+AI preliminary assessment:
+Possible leaking drain connection
+
+[ View Job ]     [ Pass ]
+```
+
+**Bottom navigation**
+- Home
+- Jobs
+- Messages
+- Earnings
+- Profile
+
+***
+
+### 9. Pro job detail
+
+**Show**
+- Job description
+- Uploaded media
+- Approximate customer location
+- AI preliminary assessment and risk level
+- Desired date/time
+- Budget preference, if customer elected to share it
+- Required skills
+- Message thread
+
+**Buttons**
+- `Submit Bid`
+- `Ask a Question`
+- `Save Job`
+- `Pass`
+
+Do not allow pros to download or publicly reuse homeowner imagery. Use signed URLs and watermark previews if abuse becomes a concern.
+
+***
+
+### 10. Bid submission
+
+**Fields**
+- Labor estimate
+- Estimated materials
+- Optional travel/diagnostic fee
+- Total estimate
+- Estimated duration
+- Available time window
+- Warranty length
+- Bid message
+- Included work
+- Exclusions / assumptions
+
+**Example**
+```text
+Labor:                 $85
+Estimated materials:   $25
+Total estimate:       $110
+
+Availability:
+Saturday, 9:00–11:00 AM
+
+Estimated duration:
+45–60 minutes
+
+Warranty:
+30 days
+```
+
+**Bid status**
+- Draft
+- Submitted
+- Viewed
+- Accepted
+- Rejected
+- Withdrawn
+- Expired
+
+**Button**
+- `Submit Bid`
+
+A bid should expire automatically after a defined period, such as 24–72 hours, especially where scheduling availability may change.
+
+***
+
+## Bid comparison
+
+### 11. Customer bids screen
+
+The customer should have transparent choice, not an unexplained “best pro” recommendation.
+
+```text
+Your Bids
+
+John's Home Repair
+$110 estimated total
+4.9 stars • 127 completed jobs
+3.1 miles away
+Saturday, 9–11 AM
+30-day workmanship warranty
+
+[ View Profile ]  [ Accept Bid ]
+```
+
+**Sort and filters**
+- Lowest price
+- Highest rating
+- Closest
+- Soonest available
+- Most completed jobs
+- Longest warranty
+- Verified insurance
+- Background checked
+
+**Bid comparison fields**
+
+| Field | Why it matters |
+|---|---|
+| Total estimate | Lets users compare cost clearly |
+| Labor and material split | Improves price transparency |
+| Availability | Prevents unsuitable booking choices |
+| Rating and review count | Gives quality context |
+| Completed jobs | Indicates platform experience |
+| Warranty | Clarifies post-job protection |
+| Distance | Helpful but should not dominate selection |
+| Verification badges | Builds trust when genuinely verified |
+
+Avoid suggesting that the cheapest bid is automatically best.
+
+***
+
+## Booking and scheduling
+
+### 12. Accept bid
+
+**Confirmation screen**
+```text
+You’re hiring John’s Home Repair
+
+Service:
+Kitchen sink leak inspection and repair
+
+Appointment:
+Saturday, September 19
+9:00 AM–11:00 AM
+
+Original estimate:
+$110
+
+[ Confirm & Continue ]
+```
+
+**Require acknowledgment**
+- Customer understands the final cost can change only through an approved change order.
+- Customer agrees to marketplace terms and cancellation policy.
+- Customer understands diagnosis is preliminary pending onsite inspection.
+
+***
+
+### 13. Scheduling
+
+**Controls**
+- Calendar date picker
+- Time windows
+- Proposed alternate times
+- Reschedule flow
+- Cancellation flow
+- Reminder preferences
+
+**Job timeline**
+```text
+✓ Bid accepted
+✓ Appointment confirmed
+✓ Payment authorized
+○ Pro is on the way
+○ Job started
+○ Job completed
+○ Customer confirmation
+○ Payout initiated
+```
+
+**Customer actions**
+- `Message Pro`
+- `Call Pro`
+- `Reschedule`
+- `Cancel Job`
+- `View Receipt`
+- `Report a Problem`
+
+Use masked calling or in-app voice/video tools to avoid exposing personal phone numbers.
+
+***
+
+## Messaging and notifications
+
+### 14. In-app messaging
+
+**Capabilities**
+- One-to-one job chat
+- Photo attachments
+- Video attachments
+- Read receipts
+- System events in the thread
+- Quick replies
+- Message reporting
+- Automated retention policy
+
+**System message examples**
+- “Your appointment is confirmed for Saturday, 9:00–11:00 AM.”
+- “John marked himself as on the way.”
+- “A change order requires your approval.”
+- “Your job is awaiting completion confirmation.”
+
+### 15. Push notifications
+
+**Customer**
+- AI analysis ready
+- New bid received
+- Bid expiring soon
+- Booking confirmed
+- Pro is on the way
+- Change order requested
+- Completion submitted
+- Review reminder
+- Payment receipt
+
+**Pro**
+- New matching job
+- Customer message
+- Bid accepted
+- Schedule reminder
+- Change order accepted or declined
+- Payout initiated
+- Review received
+
+For an MVP, use push notifications plus email fallback. SMS should be reserved for high-value, time-sensitive events due to cost and consent requirements.
+
+***
+
+## Payment system
+
+### 16. Recommended payment model
+
+Use **Stripe Connect** or another marketplace-focused processor. Do not build card processing, payout handling, or an “escrow” product yourself.
+
+```text
+Customer payment method
+          |
+          v
+Payment authorization / charge
+          |
+          v
+HandyPix platform account
+          |
+          +--> Platform fee
+          |
+          v
+Job completion and dispute window
+          |
+          v
+Provider payout through connected account
+```
+
+The specific payment flow depends on whether you use payment authorization, immediate capture, delayed transfer, or another processor-supported marketplace mechanism. Have marketplace counsel review how payment timing, cancellations, refunds, taxes, and provider classification work in each operating state.
+
+### 17. Payment screen
+
+```text
+Confirm payment
+
+Job estimate                  $110.00
+HandyPix service fee            $X.XX
+Taxes, if applicable            $X.XX
+--------------------------------------
+Total                         $XXX.XX
+
+Payment method
+Visa •••• 4242
+
+[ Pay & Book ]
+```
+
+**Payment states**
+- Payment method attached
+- Authorized
+- Captured
+- Partially refunded
+- Fully refunded
+- Payout pending
+- Paid out
+- Failed
+- Disputed
+
+Do not promise “escrow” unless your legal and payment structure truly qualifies as one.
+
+***
+
+## Change orders
+
+### 18. Required change-order workflow
+
+A pro must not increase the price unilaterally after inspection.
+
+**Pro flow**
+```text
+New issue discovered
+
+Additional work:
+Replace damaged pipe section
+
+Additional labor:       $90
+Additional materials:   $50
+Additional amount:     $140
+
+New job total:         $250
+
+[ Request Customer Approval ]
+```
+
+**Customer flow**
+```text
+John requested an additional $140
+
+Reason:
+Additional damaged pipe section found during inspection.
+
+Original approved amount: $110
+Requested additional amount: $140
+New total if approved: $250
+
+[ Approve Change ]  [ Decline ]  [ Ask a Question ]
+```
+
+**Rules**
+- No additional work begins until explicit approval.
+- Every approval is timestamped and stored.
+- Customer may decline, cancel, or open a dispute.
+- A change order updates payment authorization/capture logic.
+- Material receipts can be attached for transparency on large jobs.
+
+***
+
+## Job execution
+
+### 19. Arrival and start
+
+**Pro actions**
+- `I’m On My Way`
+- `Arrived`
+- `Start Job`
+
+**Optional safeguards**
+- GPS proximity check
+- Timestamp
+- Before photos
+- Customer PIN or QR confirmation for higher-value jobs
+
+**Customer view**
+```text
+John is on the way
+
+Estimated arrival:
+9:10 AM
+
+[ Message ]  [ Call ]  [ View Appointment ]
+```
+
+GPS should be used for job-state verification and estimated arrival—not as a public real-time surveillance feature unless users explicitly consent.
+
+***
+
+### 20. Completion flow
+
+**Pro submits**
+- Work-performed summary
+- Before photos
+- After photos
+- Materials receipt, if relevant
+- Final approved amount
+- Warranty terms
+- Completion timestamp
+
+```text
+Job completed
+
+Work performed:
+Replaced worn drain gasket and tightened drain connection.
+
+Final approved amount:
+$110
+
+[ Submit Completion ]
+```
+
+**Customer receives**
+```text
+Is your job complete?
+
+Work completed:
+Drain connection repaired.
+
+[ Looks Good — Complete Job ]
+[ Report a Problem ]
+```
+
+If the customer takes no action, use a carefully defined automatic-completion policy with advance notice, adequate review time, and a dispute option.
+
+***
+
+## Reviews and disputes
+
+### 21. Review screen
+
+```text
+How was your experience?
+
+[ 1 ] [ 2 ] [ 3 ] [ 4 ] [ 5 ]
+
+What went well?
+[ On time ]
+[ Professional ]
+[ Good communication ]
+[ Quality work ]
+[ Fair pricing ]
+
+Write a review (optional)
+
+[ Submit Review ]
+```
+
+**Rules**
+- Only allow reviews after a completed, valid job.
+- Restrict one customer review and one pro review per job.
+- Run moderation for abuse, privacy violations, discriminatory content, and false contact information.
+- Keep star averages derived from published, valid reviews.
+
+***
+
+### 22. Dispute center
+
+**Reasons**
+- Job not completed
+- Work differs materially from agreement
+- Unexpected charge
+- Damage occurred
+- Pro did not arrive
+- Safety concern
+- Quality concern
+- Other
+
+**Evidence collected automatically**
+- Original job photos
+- AI assessment
+- Job description revisions
+- Bid terms
+- Messages
+- Timeline events
+- Before/after photos
+- Payment events
+- Change orders
+- Completion confirmation
+
+**Admin actions**
+- Request more evidence
+- Pause payout where processor rules permit
+- Approve refund
+- Issue partial refund
+- Release payout
+- Close dispute
+- Suspend a user
+- Escalate to legal/safety review
+
+***
+
+## Database design
+
+Use PostgreSQL with UUID primary keys, row-level authorization controls, encrypted sensitive fields where appropriate, and immutable audit records for money, verification, and dispute actions.
+
+### Core tables
+
+```text
+users
+customer_profiles
+pro_profiles
+categories
+pro_skills
+pro_service_areas
+addresses
+jobs
+job_media
+ai_diagnoses
+ai_followup_answers
+job_matches
+bids
+appointments
+messages
+message_attachments
+payments
+payment_events
+payouts
+change_orders
+job_events
+reviews
+disputes
+dispute_evidence
+notifications
+availability
+verification_records
+insurance_documents
+admin_users
+audit_logs
+```
+
+### `users`
+
+```sql
+users
+---------------------------------------
+id UUID PRIMARY KEY
+email TEXT UNIQUE NOT NULL
+phone TEXT UNIQUE
+password_hash TEXT
+role TEXT NOT NULL
+first_name TEXT
+last_name TEXT
+avatar_url TEXT
+status TEXT NOT NULL
+email_verified_at TIMESTAMPTZ
+phone_verified_at TIMESTAMPTZ
+created_at TIMESTAMPTZ NOT NULL
+updated_at TIMESTAMPTZ NOT NULL
+```
+
+**Roles**
+- `customer`
+- `pro`
+- `admin`
+- `support`
+
+**Statuses**
+- `active`
+- `pending_verification`
+- `suspended`
+- `deleted`
+
+***
+
+### `pro_profiles`
+
+```sql
+pro_profiles
+---------------------------------------
+id UUID PRIMARY KEY
+user_id UUID UNIQUE REFERENCES users(id)
+business_name TEXT
+bio TEXT
+years_experience INTEGER
+service_radius_miles INTEGER
+home_latitude DECIMAL
+home_longitude DECIMAL
+stripe_account_id TEXT
+verification_status TEXT
+background_check_status TEXT
+insurance_status TEXT
+average_rating DECIMAL
+review_count INTEGER DEFAULT 0
+completed_job_count INTEGER DEFAULT 0
+created_at TIMESTAMPTZ NOT NULL
+updated_at TIMESTAMPTZ NOT NULL
+```
+
+Do not trust manually edited values for reputation or trust signals. Ratings, completed jobs, cancellations, response rate, and payout history should be derived from actual transaction records.
+
+***
+
+### `jobs`
+
+```sql
+jobs
+---------------------------------------
+id UUID PRIMARY KEY
+customer_id UUID REFERENCES users(id)
+category_id UUID REFERENCES categories(id)
+address_id UUID REFERENCES addresses(id)
+title TEXT NOT NULL
+description TEXT NOT NULL
+ai_summary TEXT
+status TEXT NOT NULL
+risk_level TEXT NOT NULL
+preferred_start TIMESTAMPTZ
+preferred_end TIMESTAMPTZ
+budget_min_cents INTEGER
+budget_max_cents INTEGER
+selected_bid_id UUID
+final_amount_cents INTEGER
+currency CHAR(3) DEFAULT 'USD'
+published_at TIMESTAMPTZ
+completed_at TIMESTAMPTZ
+created_at TIMESTAMPTZ NOT NULL
+updated_at TIMESTAMPTZ NOT NULL
+```
+
+**Job statuses**
+```text
+draft
+analyzing
+needs_customer_input
+ready_to_publish
+open
+bidding
+bid_selected
+booked
+pro_en_route
+in_progress
+awaiting_customer_confirmation
+completed
+cancelled
+disputed
+closed
+```
+
+***
+
+### `job_media`
+
+```sql
+job_media
+---------------------------------------
+id UUID PRIMARY KEY
+job_id UUID REFERENCES jobs(id)
+uploaded_by UUID REFERENCES users(id)
+storage_key TEXT NOT NULL
+mime_type TEXT NOT NULL
+media_type TEXT NOT NULL
+photo_type TEXT
+width INTEGER
+height INTEGER
+duration_seconds INTEGER
+is_original BOOLEAN DEFAULT true
+created_at TIMESTAMPTZ NOT NULL
+```
+
+**Photo types**
+- `customer_initial`
+- `customer_additional`
+- `pro_before`
+- `pro_after`
+- `completion`
+- `dispute_evidence`
+
+Use private storage buckets with time-limited signed URLs.
+
+***
+
+### `ai_diagnoses`
+
+```sql
+ai_diagnoses
+---------------------------------------
+id UUID PRIMARY KEY
+job_id UUID REFERENCES jobs(id)
+model_provider TEXT
+model_name TEXT
+model_version TEXT
+category_id UUID REFERENCES categories(id)
+possible_issue TEXT
+confidence DECIMAL
+risk_level TEXT
+visual_evidence JSONB
+possible_causes JSONB
+recommended_questions JSONB
+recommended_action TEXT
+raw_response JSONB
+reviewed_by_customer_at TIMESTAMPTZ
+created_at TIMESTAMPTZ NOT NULL
+```
+
+**Structured result example**
+
+```json
+{
+  "category": "plumbing",
+  "possible_issue": "possible drain connection leak",
+  "confidence": 0.82,
+  "risk_level": "normal",
+  "visual_evidence": [
+    "visible moisture near drain fitting",
+    "water accumulation beneath sink"
+  ],
+  "possible_causes": [
+    "loose connection",
+    "worn gasket"
+  ],
+  "recommended_questions": [
+    "Does the leak happen only when the sink runs?"
+  ],
+  "recommended_action": "Request professional inspection and repair."
+}
+```
+
+Retain the model name and version for safety review, diagnosis quality evaluation, and future incident analysis.
+
+***
+
+### `bids`
+
+```sql
+bids
+---------------------------------------
+id UUID PRIMARY KEY
+job_id UUID REFERENCES jobs(id)
+pro_id UUID REFERENCES users(id)
+labor_amount_cents INTEGER NOT NULL
+materials_amount_cents INTEGER DEFAULT 0
+trip_fee_cents INTEGER DEFAULT 0
+total_amount_cents INTEGER NOT NULL
+estimated_duration_minutes INTEGER
+available_start TIMESTAMPTZ
+available_end TIMESTAMPTZ
+warranty_days INTEGER
+message TEXT
+included_work TEXT
+exclusions TEXT
+status TEXT NOT NULL
+expires_at TIMESTAMPTZ
+created_at TIMESTAMPTZ NOT NULL
+updated_at TIMESTAMPTZ NOT NULL
+```
+
+**Bid statuses**
+- `draft`
+- `submitted`
+- `viewed`
+- `accepted`
+- `rejected`
+- `withdrawn`
+- `expired`
+
+***
+
+### `payments`
+
+```sql
+payments
+---------------------------------------
+id UUID PRIMARY KEY
+job_id UUID REFERENCES jobs(id)
+customer_id UUID REFERENCES users(id)
+pro_id UUID REFERENCES users(id)
+provider TEXT NOT NULL
+provider_payment_intent_id TEXT
+provider_charge_id TEXT
+amount_cents INTEGER NOT NULL
+platform_fee_cents INTEGER NOT NULL
+tax_amount_cents INTEGER DEFAULT 0
+currency CHAR(3) DEFAULT 'USD'
+status TEXT NOT NULL
+authorized_at TIMESTAMPTZ
+captured_at TIMESTAMPTZ
+refunded_at TIMESTAMPTZ
+created_at TIMESTAMPTZ NOT NULL
+updated_at TIMESTAMPTZ NOT NULL
+```
+
+### `payment_events`
+
+```sql
+payment_events
+---------------------------------------
+id UUID PRIMARY KEY
+payment_id UUID REFERENCES payments(id)
+provider_event_id TEXT UNIQUE
+event_type TEXT NOT NULL
+payload JSONB NOT NULL
+processed_at TIMESTAMPTZ
+created_at TIMESTAMPTZ NOT NULL
+```
+
+Make webhook handlers idempotent. A payment event may be delivered multiple times.
+
+***
+
+### `change_orders`
+
+```sql
+change_orders
+---------------------------------------
+id UUID PRIMARY KEY
+job_id UUID REFERENCES jobs(id)
+requested_by UUID REFERENCES users(id)
+reason TEXT NOT NULL
+description TEXT
+additional_labor_cents INTEGER DEFAULT 0
+additional_materials_cents INTEGER DEFAULT 0
+additional_total_cents INTEGER NOT NULL
+status TEXT NOT NULL
+customer_approved_at TIMESTAMPTZ
+customer_declined_at TIMESTAMPTZ
+created_at TIMESTAMPTZ NOT NULL
+updated_at TIMESTAMPTZ NOT NULL
+```
+
+**Statuses**
+- `draft`
+- `submitted`
+- `approved`
+- `declined`
+- `cancelled`
+- `expired`
+
+***
+
+### `job_events`
+
+```sql
+job_events
+---------------------------------------
+id UUID PRIMARY KEY
+job_id UUID REFERENCES jobs(id)
+actor_id UUID REFERENCES users(id)
+event_type TEXT NOT NULL
+metadata JSONB
+created_at TIMESTAMPTZ NOT NULL
+```
+
+Examples:
+- `job_published`
+- `bid_submitted`
+- `bid_accepted`
+- `payment_authorized`
+- `pro_en_route`
+- `job_started`
+- `change_order_requested`
+- `job_completed`
+- `customer_confirmed`
+- `payout_initiated`
+- `dispute_opened`
+
+This table is crucial for support, disputes, analytics, and fraud investigations.
+
+***
+
+## AI diagnosis flow
+
+### Vision-to-job pipeline
+
+```text
+1. Customer uploads photo/video
+             |
+             v
+2. Media validation
+   - File type and size
+   - Malware scan
+   - Blur/quality detection
+   - Duplicate detection
+   - EXIF privacy handling
+             |
+             v
+3. Vision analysis
+   - Identify probable category
+   - Extract visible evidence
+   - Identify likely issue candidates
+             |
+             v
+4. Safety classifier
+   - Routine
+   - Professional inspection recommended
+   - Potentially dangerous
+             |
+             v
+5. Follow-up question engine
+   - Ask only high-value questions
+   - Collect symptoms and context
+             |
+             v
+6. Structured diagnosis output
+             |
+             v
+7. AI job-description generator
+             |
+             v
+8. Customer review/edit/confirmation
+             |
+             v
+9. Matching and job publication
+```
+
+### Guardrails
+
+- Never let raw model text directly control payment, emergency messaging, job status, or account enforcement.
+- Validate all AI responses against a strict JSON schema.
+- Maintain category-specific safety rules outside the LLM.
+- Use deterministic rules for clearly dangerous keywords and visual categories.
+- Log model output and final user-facing output separately.
+- Permit users to override the suggested category.
+- Add human review queues for high-risk, low-confidence, or repeated safety cases.
+- Conduct regular evaluation using labeled repair images and expert-reviewed scenarios.
+
+### Example schema
+
+```ts
+type Diagnosis = {
+  category: "plumbing" | "electrical" | "hvac" | "roofing" | "carpentry" | "general_repair";
+  possibleIssue: string;
+  confidence: "low" | "moderate" | "high";
+  riskLevel: "normal" | "professional_review" | "potentially_dangerous";
+  visualEvidence: string[];
+  possibleCauses: string[];
+  followUpQuestions: string[];
+  customerSafeGuidance: string[];
+  professionalInspectionRecommended: boolean;
+  jobSummary: string;
+};
+```
+
+***
+
+## Matching system
+
+### Pro matching filters
+
+A pro should receive a job only if they satisfy hard eligibility requirements:
+
+- Approved and active account
+- Category/skill match
+- Service area match
+- Availability overlap
+- Payment onboarding completed
+- Required insurance/licensing status, where applicable
+- Not blocked by the customer
+- Not suspended or under serious investigation
+
+### Ranking factors
+
+Use ranking only after applying hard filters.
+
+```text
+match_score =
+  distance_score
++ skill_relevance_score
++ availability_score
++ response_rate_score
++ completion_rate_score
++ rating_quality_score
++ repeat_customer_affinity
+- cancellation_penalty
+- unresolved_complaint_penalty
+```
+
+Do not display a mysterious “AI score” to customers. Instead show concrete explanations:
+
+- “Available Saturday morning”
+- “Plumbing specialist”
+- “4.9 stars from 127 completed jobs”
+- “3.1 miles away”
+- “Usually responds within 15 minutes”
+
+For the MVP, send a job to a limited initial batch, such as 10–25 qualifying pros, then expand outreach if bids do not arrive.
+
+***
+
+## API design
+
+### Authentication
+
+```http
+POST /auth/register
+POST /auth/login
+POST /auth/logout
+POST /auth/refresh
+POST /auth/forgot-password
+POST /auth/reset-password
+GET  /me
+```
+
+### Jobs and media
+
+```http
+POST   /jobs
+GET    /jobs
+GET    /jobs/:jobId
+PATCH  /jobs/:jobId
+DELETE /jobs/:jobId
+
+POST   /jobs/:jobId/media/upload-url
+POST   /jobs/:jobId/media
+DELETE /jobs/:jobId/media/:mediaId
+
+POST   /jobs/:jobId/analyze
+GET    /jobs/:jobId/diagnoses
+POST   /jobs/:jobId/publish
+POST   /jobs/:jobId/cancel
+```
+
+### Bidding
+
+```http
+GET    /pro/jobs/matches
+POST   /jobs/:jobId/bids
+GET    /jobs/:jobId/bids
+PATCH  /bids/:bidId
+POST   /bids/:bidId/withdraw
+POST   /bids/:bidId/accept
+```
+
+### Scheduling and completion
+
+```http
+POST   /jobs/:jobId/schedule
+POST   /jobs/:jobId/en-route
+POST   /jobs/:jobId/start
+POST   /jobs/:jobId/complete
+POST   /jobs/:jobId/confirm-completion
+POST   /jobs/:jobId/report-problem
+```
+
+### Change orders
+
+```http
+POST /jobs/:jobId/change-orders
+GET  /jobs/:jobId/change-orders
+POST /change-orders/:changeOrderId/approve
+POST /change-orders/:changeOrderId/decline
+```
+
+### Messaging
+
+```http
+GET  /jobs/:jobId/messages
+POST /jobs/:jobId/messages
+POST /messages/:messageId/attachments
+POST /messages/:messageId/report
+```
+
+### Payments
+
+```http
+POST /payments/setup-intent
+POST /jobs/:jobId/payment/authorize
+POST /jobs/:jobId/payment/capture
+POST /jobs/:jobId/payment/refund
+POST /payments/webhooks/stripe
+```
+
+### Reviews and disputes
+
+```http
+POST /jobs/:jobId/reviews
+POST /jobs/:jobId/disputes
+GET  /jobs/:jobId/disputes
+POST /disputes/:disputeId/evidence
+```
+
+***
+
+## Recommended technical stack
+
+| Layer | Recommendation |
+|---|---|
+| Mobile app | React Native + Expo + TypeScript |
+| Customer/pro app approach | One mobile app with role-aware navigation for MVP |
+| Admin portal | Next.js + TypeScript |
+| Backend | Node.js + TypeScript, NestJS or Fastify |
+| API style | REST initially; add GraphQL only if it later solves real complexity |
+| Database | PostgreSQL |
+| ORM | Prisma or Drizzle |
+| Authentication | Clerk, Auth0, Supabase Auth, or secure custom JWT/session setup |
+| File storage | S3-compatible private object storage |
+| Image/video processing | Cloudinary, Mux, AWS MediaConvert, or queued server-side processing |
+| AI layer | Vision-capable multimodal model with strict structured JSON output |
+| Payments | Stripe Connect marketplace integration |
+| Maps | Google Maps Platform or Mapbox |
+| Real time | Socket.IO, Supabase Realtime, Ably, or Pusher |
+| Push notifications | Expo Notifications, Firebase Cloud Messaging, APNs |
+| Background jobs | BullMQ + Redis, Trigger.dev, Inngest, or cloud queues |
+| Monitoring | Sentry, structured logs, uptime checks |
+| Product analytics | PostHog, Amplitude, or Mixpanel |
+| Feature flags | PostHog, LaunchDarkly, or Flagsmith |
+
+For your development style, a practical monorepo could look like:
+
+```text
+handypix/
+├── apps/
+│   ├── mobile/             # Expo React Native
+│   ├── web/                # Next.js marketing + admin
+│   └── api/                # Node/NestJS or Fastify
+├── packages/
+│   ├── ui/                 # Shared design system
+│   ├── types/              # Shared TypeScript types
+│   ├── api-client/         # Typed API client
+│   ├── config/             # ESLint, TS, env schemas
+│   └── ai-schemas/         # Zod output validators
+├── prisma/
+│   └── schema.prisma
+└── infrastructure/
+    ├── docker/
+    ├── terraform/
+    └── ci/
+```
+
+***
+
+## Admin dashboard
+
+### Dashboard metrics
+
+```text
+Total customers
+Approved pros
+Open jobs
+Jobs awaiting bids
+Active jobs
+Completed jobs
+Gross marketplace volume
+Platform revenue
+Disputes opened
+Average first-bid time
+Cancellation rate
+Repeat customer rate
+```
+
+### Admin modules
+
+| Module | Capabilities |
+|---|---|
+| Users | Search, view history, suspend, restore, flag |
+| Pros | Approve profiles, verify documents, review insurance, monitor quality |
+| Jobs | Inspect media, diagnosis, bids, messages, timeline, status |
+| AI safety | Review flagged diagnoses, adjust rules, inspect model performance |
+| Payments | View payment state, refunds, payout exceptions, webhook history |
+| Disputes | Review evidence, communicate with parties, resolve cases |
+| Content moderation | Review photos, messages, reviews, abuse reports |
+| Analytics | Funnel, supply-demand, category, geography, retention metrics |
+| Audit logs | Track all sensitive admin actions |
+
+Require role-based admin permissions. A support representative should not automatically have permission to issue refunds, view all documents, or change verification status.
+
+***
+
+## Trust and security
+
+### Essential protections
+
+- Encrypt data in transit and at rest.
+- Use private media storage and short-lived signed URLs.
+- Strip unnecessary EXIF metadata from user-uploaded images.
+- Enforce authorization checks at the record level, not only in UI.
+- Use rate limiting and bot defenses on auth, upload, bidding, and payment endpoints.
+- Use idempotency keys for booking, payment, and payout endpoints.
+- Verify payment webhooks cryptographically.
+- Maintain immutable audit records for money and status changes.
+- Run malware scanning on uploads.
+- Add moderation/reporting flows for messages, reviews, and images.
+- Use secure secrets management rather than `.env` files in production.
+- Implement account-deletion and data-retention workflows.
+- Obtain explicit consent for location sharing and notifications.
+
+### Legal and operational review
+
+Before release, engage legal and compliance counsel for:
+- Marketplace terms of service
+- Contractor classification
+- Licensing requirements by service and state
+- Insurance and verification claims
+- Payment flow and fund handling
+- Privacy policy and biometric/location data handling
+- AI disclosures and liability language
+- Dispute/refund policy
+- Consumer protection and cancellation rules
+
+***
+
+## MVP scope
+
+### Build in Phase 1
+
+**Customer**
+- Signup/login
+- Photo upload
+- AI preliminary assessment
+- Safety routing
+- Job creation/editing
+- Address and preference capture
+- Bid receipt and comparison
+- Booking
+- Messaging
+- Payment
+- Job tracking
+- Completion confirmation
+- Reviews
+
+**Pro**
+- Signup
+- Basic verification workflow
+- Skills/service area
+- Matched job feed
+- Job details
+- Bidding
+- Messaging
+- Appointment tracking
+- Completion submission
+- Earnings view
+
+**Admin**
+- User management
+- Pro approval
+- Job inspection
+- Basic payment visibility
+- Disputes
+- Audit logs
+
+### Defer to Phase 2
+
+- Full video diagnosis
+- Dynamic multi-step AI troubleshooting
+- Live map tracking
+- In-app calling
+- Subscription plans
+- Customer favorites
+- Pro portfolios
+- Home maintenance history
+- Maintenance reminder engine
+- Advanced dynamic pricing
+- AI conversational repair assistant
+
+### Phase 3 differentiation
+
+The strongest long-term feature is guided diagnosis:
+
+```text
+Customer: “My AC isn’t working.”
+
+HandyPix AI: “Please take a photo of the thermostat.”
+
+HandyPix AI: “Now take a photo of the outdoor unit.”
+
+HandyPix AI: “Is the outdoor fan running?”
+
+HandyPix AI: “A qualified HVAC technician should inspect this.
+Would you like to request bids?”
+```
+
+This turns HandyPix AI from a photo upload marketplace into a home-maintenance intelligence platform.
+
+***
+
+## Development plan
+
+### Sprint 0 — Product foundation
+
+**Duration:** 1–2 weeks
+
+- Finalize brand system and logo
+- Establish design tokens
+- Build user flows in Figma
+- Define job-state machine
+- Define safety taxonomy
+- Write initial database schema
+- Set up monorepo, CI/CD, environments, error monitoring
+- Select vendors for auth, storage, maps, payment, notifications, and AI
+
+**Deliverable:** Clickable prototype, architecture decision record, initial schema, design system.
+
+***
+
+### Sprint 1 — Identity and profiles
+
+**Duration:** 2 weeks
+
+- Customer and pro authentication
+- Role-based navigation
+- Customer profile
+- Pro profile
+- Skills/categories
+- Service areas
+- Basic admin access controls
+- Database migrations
+- API authentication and authorization
+
+**Deliverable:** Users can create role-specific accounts and manage foundational profiles.
+
+***
+
+### Sprint 2 — Media and AI assessment
+
+**Duration:** 2–3 weeks
+
+- Camera/gallery flow
+- Private image upload pipeline
+- Image compression and thumbnails
+- AI analysis endpoint
+- Strict structured response validation
+- Diagnosis UI
+- Follow-up questions
+- Safety classification and escalation
+- AI audit logging
+
+**Deliverable:** Customer can submit photos and receive a safety-aware preliminary assessment.
+
+***
+
+### Sprint 3 — Jobs and matching
+
+**Duration:** 2–3 weeks
+
+- Draft and publish job flow
+- AI-generated editable descriptions
+- Location and schedule preferences
+- Pro matching filters
+- New-job feed
+- Push notification triggers
+- Job status timeline
+
+**Deliverable:** Customers can publish jobs and qualified pros can discover them.
+
+***
+
+### Sprint 4 — Bidding and messaging
+
+**Duration:** 2–3 weeks
+
+- Bid creation and expiration
+- Customer bid comparison
+- Sorting and filters
+- Pro profile display
+- Job-level real-time messaging
+- Read receipts and attachment support
+- Bid acceptance
+
+**Deliverable:** The marketplace loop works from job creation through pro selection.
+
+***
+
+### Sprint 5 — Booking and payments
+
+**Duration:** 2–3 weeks
+
+- Stripe Connect onboarding
+- Customer payment method setup
+- Authorization/capture workflow
+- Platform fee configuration
+- Payment event/webhook handling
+- Booking confirmation
+- Cancellation rules
+- Pro earnings view
+- Receipt generation
+
+**Deliverable:** Customers can book and pay through the app; pros can receive marketplace payouts.
+
+***
+
+### Sprint 6 — Completion, reviews, disputes
+
+**Duration:** 2 weeks
+
+- On-the-way and start-job events
+- Before/after photo support
+- Completion submission
+- Customer confirmation
+- Change orders
+- Reviews
+- Dispute creation and evidence collection
+- Admin dispute tools
+
+**Deliverable:** A full job lifecycle with customer protection and operational controls.
+
+***
+
+### Sprint 7 — Pilot launch
+
+**Duration:** 2–4 weeks
+
+Launch within a single tightly defined market, such as selected Dallas neighborhoods, before expanding. Start with a few categories where visual intake and standard jobs work well: minor plumbing, drywall, doors, fixtures, furniture assembly, and general repairs.
+
+**Pilot metrics**
+- Photo-to-diagnosis completion rate
+- Diagnosis-to-job-posting rate
+- Median time to first bid
+- Bids per job
+- Bid acceptance rate
+- Job completion rate
+- Cancellation rate
+- Change-order frequency
+- Dispute rate
+- Gross marketplace volume
+- Take rate
+- Customer repeat rate
+- Pro response and retention rate
+- AI safety flag rate
+- AI category agreement with pro final diagnosis
+
+***
+
+## Success criteria
+
+The MVP is working when customers can reliably complete this journey without support:
+
+```text
+Open app
+-> Upload photo
+-> Receive appropriate AI assessment
+-> Publish job
+-> Get bids
+-> Select a pro
+-> Pay and book
+-> Track the repair
+-> Confirm completion
+-> Review
+```
+
+The business is working when the marketplace achieves sufficient local liquidity: customers receive several relevant bids quickly, good pros win enough work to return, payment/dispute operations are manageable, and AI improves job quality without overstating its certainty.
+

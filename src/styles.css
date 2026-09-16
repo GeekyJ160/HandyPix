@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Syne:wght@500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #08090c;
+  --color-surface: #12141a;
+  --color-surface-2: #1a1e28;
+  --color-fg: #eef1f6;
+  --color-muted: #8b929e;
+  --color-subtle: #6b7380;
+  --color-accent: #3ec6d8;
+  --color-accent-fg: #062026;
+  --color-accent-dim: #16353c;
+  --color-border: color-mix(in oklab, #eef1f6 12%, transparent);
+  --color-border-strong: color-mix(in oklab, #eef1f6 22%, transparent);
+  --color-success: #3dba8b;
+  --color-danger: #e85d4c;
+  --color-warn: #d4a056;
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Syne", "Manrope", ui-sans-serif, sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+  --shadow-border: 0 0 0 1px color-mix(in oklab, #eef1f6 8%, transparent);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  img {
+    outline: 1px solid color-mix(in oklab, #eef1f6 10%, transparent);
+    outline-offset: -1px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

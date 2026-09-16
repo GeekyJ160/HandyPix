@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/blueprint",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "HandyPix AI",
+      "hasCanvas": false,
+      "bodyTextLen": 6278,
+      "bodyTextHash": "7f3e999616583676a3f44c5f69f2c575cb4156c6bcfb05c46d99ecfc1d1c6a8c",
+      "bodyTextPrefix": "HandyPix AI Home PRODUCT BLUEPRINT HandyPix AI Snap it. Diagnose",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/blueprint.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "HandyPix AI",
+      "hasCanvas": false,
+      "bodyTextLen": 6278,
+      "bodyTextHash": "7f3e999616583676a3f44c5f69f2c575cb4156c6bcfb05c46d99ecfc1d1c6a8c",
+      "bodyTextPrefix": "HandyPix AI Home PRODUCT BLUEPRINT HandyPix AI Snap it. Diagnose",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/blueprint-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/blueprint.json"
+}
